@@ -103,6 +103,7 @@ public interface ProductsDAO {
 
         boolean flag=false;
 
+
         while(resultSet1.next()){
             if(resultSet1.getInt("brandid")==brand_chosen.brandid){
                 flag=true;
